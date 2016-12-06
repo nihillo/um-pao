@@ -1,0 +1,14 @@
+html
+	block vars
+	head
+		title #{data.title}
+		link(rel="stylesheet", href="styles.css")
+	body
+		include ../components/nav
+
+		block header
+		
+		.main
+			block content
+		
+		include ../components/footer

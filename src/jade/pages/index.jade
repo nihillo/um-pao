@@ -1,0 +1,22 @@
+extends ../layout/layout.jade
+include ../components/section-firstlevel
+
+block vars 
+	- var data = {};
+	- data.title = "Home";
+	- data.firstSection = {};
+	- data.firstSection.title = "First section title";
+	- data.firstSection.text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta error autem est deserunt quis labore voluptate, sed inventore voluptas? Magnam id, maxime quas eligendi ipsa ratione alias? Ut, velit, non.";
+	- data.firstSection.bigImg = {};
+	- data.firstSection.bigImg.src = "./assets/img/march-band.jpg";
+	- data.firstSection.bigImg.alt = "Banda de música desfilando";
+	- data.firstSection.smallImg = {};
+	- data.firstSection.smallImg.src = "./assets/img/old-band.jpg";
+	- data.firstSection.smallImg.alt = "Banda de música hace muchos años";
+
+
+block header
+	include ../components/header-home
+
+block content
+	+section-fl(data.firstSection.title, data.firstSection.text, data.firstSection.bigImg.src, data.firstSection.bigImg.alt, data.firstSection.smallImg.src, data.firstSection.smallImg.alt)
