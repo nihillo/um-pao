@@ -1,0 +1,43 @@
+{
+	"title": "Únete",
+	"header": {
+		"headline": "Únete",
+		"img": "./assets/img/header.png"
+	},
+	"firstSection": {
+		"title": "Te estamos esperando",
+		"text": "Nuestra misión es acercar la música y su cultura a todos dentro de nuestros pueblos. Así es que, si estás pensando en aprender música, aprender a tocar un instrumento, o ya sabes tocar uno y te apetece formar parte de la banda, te estamos esperando con las puertas abiertas. Acércate y hablemos.",
+		"bigImg": {
+			"src": "./assets/img/march-band.jpg",
+			"alt": "Banda de música desfilando"
+		},
+		"smallImg": {
+			"src": "./assets/img/old-band.jpg",
+			"alt": "Banda de música hace muchos años"
+		}
+	},
+	"donde": {
+		"title": "Dónde y cuándo encontrarnos",
+		"content": [
+			{
+				"title": "Padules",
+				"text": "Local de ensayo. Martes y sábados."
+			},
+			{
+				"title": "Almócita",
+				"text": "Casa del Pueblo. Jueves y domingos."
+			},
+			{
+				"title": "Ohanes",
+				"text": "Local de ensayo. Miércoles y sábados."
+			}
+		]
+	},
+	"cta": {
+		"text": "O bien ponte en contacto con nosotros y te informaremos.",
+		"button": {
+			"text": "Contáctanos",
+			"href": "contacto.html"
+		}
+	}
+}

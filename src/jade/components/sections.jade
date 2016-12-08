@@ -1,0 +1,41 @@
+mixin section-fl(title, text, bigImgSrc, bigImgAlt, smallImgSrc, smallImgAlt)
+	section.fl
+		h2 #{title}
+		p #{text}
+		img.img-fls-big(src="#{bigImgSrc}", alt="#{bigImgAlt}")
+		img.img-fls-small(src="#{smallImgSrc}", alt="#{smallImgAlt}")
+
+mixin section-sl(title)
+	//- title: section title
+	section
+		h2 #{title}
+		if block 
+			block
+
+
+mixin section-cta(text, btnText, btnHref)
+	section
+		p.text-cta #{text}
+		a.btn.btn-cta(href="#{btnHref}") #{btnText}
+
+
+mixin section-cards(title)
+	section
+		h2 #{title}
+		if block
+			block
+
+mixin section-onlytext(title, text)
+	section
+		h2 #{title}
+	each paragraph in text
+		p #{paragraph}
+
+mixin section-rep(title, bigImgSrc, bigImgAlt, smallImgSrc, smallImgAlt, repertorio)
+	section
+		h2 #{title}
+		ul
+		each obra in repertorio
+			li #{obra}
+		img.img-fls-big(src="#{bigImgSrc}", alt="#{bigImgAlt}")
+		img.img-fls-small(src="#{smallImgSrc}", alt="#{smallImgAlt}")

@@ -1,0 +1,47 @@
+{
+	"title": "Mitos y leyendas",
+	"header": {
+		"headline": "Mitos y leyendas",
+		"img": "mitos.png"
+	},
+	"firstSection": {
+		"title": "Un paseo sonoro por nuestro folklore",
+		"text": "Los mitos y las leyendas componen una parte muy importante del acervo cultural de las sociedades. Un halo místico en torno a qué partes son reales y cuales no las envuelve, maravillando siempre al espectador. En este espectáculo narrativo-musical hacemos un paseo por algunos de los mitos y leyendas que a lo largo de siglos han ido construyendo parte del folklore de la cultura global occidental.",
+		"bigImg": {
+			"src": "./assets/img/mitos-big.png",
+			"alt": "Mitos y leyendas"
+		},
+		"smallImg": {
+			"src": "./assets/img/mitos-small.png",
+			"alt": "Mitos y leyendas"
+		}
+	},
+	"videosSection": {
+		"video": {
+			"title": "Ireland, of legend and lore",
+			"subtitle": "Robert W. Smith",
+			"src": "./assets/video/ireland.mp4"
+		}
+	},
+	"repertorio": {
+		"title": "Repertorio",
+		"bigImg": {
+			"src": "./assets/img/partitura1.png",
+			"alt": "Repertorio"
+		},
+		"smallImg": {
+			"src": "./assets/img/partitura2.png",
+			"alt": "Repertorio"
+		},
+		"list": [
+			"Ireland, of legend and lore",
+			"King Arthur",
+			"Easy fanfare",
+			"Don Quixote",
+			"Lawrence of Arabia",
+			"Exodus",
+			"Gladiator",
+			"The last of the Mohicans"
+		]
+	}
+}

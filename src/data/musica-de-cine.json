@@ -1,0 +1,47 @@
+{
+	"title": "Música de cine",
+	"header": {
+		"headline": "Música de cine",
+		"img": "cine.png"
+	},
+	"firstSection": {
+		"title": "Una inmersión musical en el séptimo arte",
+		"text": "Desde sus orígenes, el cine ha estado fuertemente ligado a la música. Incluso en la época del cine mudo, las proyecciones se acompañaban de música en directo. Esta indisociable simbiosis ha dado lugar a lo largo de las décadas a un género musical con entidad propia, el de las banda sonora. En este paseo exploramos algunas de las bandas sonoras más representativas de la historia del cine.",
+		"bigImg": {
+			"src": "./assets/img/cine-big.png",
+			"alt": "Música de cine"
+		},
+		"smallImg": {
+			"src": "./assets/img/cine-small.png",
+			"alt": "Música de cine"
+		}
+	},
+	"videosSection": {
+		"video": {
+			"title": "Moment for Morricone",
+			"subtitle": "Ennio Morricone, arr. Johan de Meij",
+			"src": "./assets/video/morricone.mp4"
+		}
+	},
+	"repertorio": {
+		"title": "Repertorio",
+		"bigImg": {
+			"src": "./assets/img/partitura1.png",
+			"alt": "Repertorio"
+		},
+		"smallImg": {
+			"src": "./assets/img/partitura2.png",
+			"alt": "Repertorio"
+		},
+		"list": [
+			"Moment for Morricone",
+			"Film festival",
+			"Exodus",
+			"Piratas del Caribe",
+			"Tribute to John Williams",
+			"Game of Thrones medley",
+			"Gladiator",
+			"The last of the Mohicans"
+		]
+	}
+}

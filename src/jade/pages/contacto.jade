@@ -1,0 +1,25 @@
+include ../components/header
+include ../components/sections
+include ../components/cards
+
+
+extends ../layout/layout.jade
+
+
+block header
+	+header(header.headline, header.img)
+
+block main-content
+	+section-sl(direcciones.title)
+		block direcciones-content
+			ul
+			each element in direcciones.content
+					li element.text
+
+	+section-sl(sedes.title)
+		block sedes-content
+			each element in sedes.content
+				+card-simple(element.title, element.text)
+
+	section
+		include ../components/contact-form

@@ -1,0 +1,31 @@
+{
+	"title": "Contacto",
+	"header": {
+		"headline": "Contacto",
+		"img": "./assets/img/header.png"
+	},	
+	"direcciones": {
+		"title": "Información de contacto",
+		"content" :	[
+			"Email: info@umpao.org",
+			"Teléfono: 6660003331"
+		]
+	},
+	"sedes": {
+		"title": "Sedes",
+		"content" :	[
+			{
+				"title": "Padules",
+				"text": "Asociación Cultural Las Canales - C/ del Río, 10"
+			},
+			{
+				"title": "Almócita",
+				"text": "Asociación Cultural Los Tres Caños - C/ Real, 7"
+			},
+			{
+				"title": "Ohanes",
+				"text": "Agrupación Musical Trémolo - C/ Carlos Mendoza, 3"
+			}
+		]
+	}
+}

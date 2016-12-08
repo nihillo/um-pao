@@ -1,0 +1,13 @@
+mixin video-art-right(title, subtitle, src)
+	article
+		h3 #{title}
+		p.subtitle #{subtitle}
+		video(controls)
+			source(src="#{src}", type="video/mp4")
+
+mixin video-art-left(title, subtitle, src)
+	article
+		video(controls)
+			source(src="#{src}", type="video/mp4")
+		h3 #{title}
+		p.subtitle #{subtitle}

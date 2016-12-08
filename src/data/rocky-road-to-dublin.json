@@ -1,0 +1,45 @@
+{
+	"title": "The rocky road to Dublin",
+	"header": {
+		"headline": "The rocky road to Dublin",
+		"img": "dublin.png"
+	},
+	"firstSection": {
+		"title": "Un acercamiento al folk irlandés",
+		"text": "En este proyecto exploramos algunas de las canciones más populares del folk irlandés y de las culturas de origen celta en general.",
+		"bigImg": {
+			"src": "./assets/img/dublin-big.png",
+			"alt": "The rocky road to Dublin"
+		},
+		"smallImg": {
+			"src": "./assets/img/dublin-small.png",
+			"alt": "The rocky road to Dublin"
+		}
+	},
+	"videosSection": {
+		"video": {
+			"title": "O Fortuna",
+			"subtitle": "Carmina Burana - Carl Orff",
+			"src": "./assets/video/o-fortuna.mp4"
+		}
+	},
+	"repertorio": {
+		"title": "Repertorio",
+		"bigImg": {
+			"src": "./assets/img/partitura1.png",
+			"alt": "Repertorio"
+		},
+		"smallImg": {
+			"src": "./assets/img/partitura2.png",
+			"alt": "Repertorio"
+		},
+		"list": [
+			"Ireland, of legend and lore",
+			"Seven drunken nights",
+			"Whiskey in the jar",
+			"Gaelforce",
+			"Cockles & Mussels",
+			"The rocky road to Dublin"
+		]
+	}
+}

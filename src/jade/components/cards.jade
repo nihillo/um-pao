@@ -1,0 +1,26 @@
+mixin card-simple(title, content)
+	.card
+		h4 #{title}
+		p #{content}
+
+
+mixin card-img-big-right(title, content, imgSrc, href)
+	.card.card-img.card-img-big.card-big-right
+		a(href="#{href}")
+			h4 #{title}
+			p #{content}
+			img(src="#{imgSrc}", alt="#{title}")
+
+mixin card-img-big-left(title, content, imgSrc, href)
+	.card.card-img.card-img-big.card-big-left
+		a(href="#{href}")
+			h4 #{title}
+			p #{content}
+			img(src="#{imgSrc}", alt="#{title}")
+
+
+mixin card-img-small(title, imgSrc, href)
+	.card.card-img.card-img-small
+		a(href="#{href}")
+			h4 #{title}
+			img(src="#{imgSrc}", alt="#{title}")

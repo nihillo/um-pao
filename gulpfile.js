@@ -11,6 +11,8 @@ var gulp = require('gulp'),
     sass = require('gulp-sass'),
     del = require('del');
     jade = require('gulp-jade');
+    data = require('gulp-data');
+    path = require('path');
 
 
 // Process CSS
@@ -40,8 +42,11 @@ gulp.task('js', function(){
 
 // Process Jade to HTML
 gulp.task('html', function() {
-    // Copy all HTML files to dist folder
-    return gulp.src('./src/jade/pages/*.jade')
+    // Copy all HTML files to dist folderp
+    return gulp.src('./src/*.jade')
+        .pipe(data( function(file) {
+            return require('./src/data/' + path.basename(file.path, '.jade') + '.json');
+        }))
         .pipe(jade({pretty: true}))
         .pipe(gulp.dest('./dist/'))
         .pipe( browserSync.stream() );

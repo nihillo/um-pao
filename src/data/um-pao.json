@@ -1,0 +1,40 @@
+{
+	"title": "About",
+	"header": {
+		"headline": "Unión Musical P.A.O.",
+		"img": "./assets/img/header.png"
+	},
+	"firstSection": {
+		"title": "Tres pueblos, un ideal",
+		"text": "La Unión Musical P.A.O. comienza su andadura en 2006 tras la decisión de las asociaciones Las Canales, de Padules, Los Tres Caños, de Almócita y Trémolo, de Ohanes, de colaborar en un proyecto común para llevar la música a todos los rincones de estos tres pueblos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. A corrupti harum placeat aut quasi excepturi. Ratione, sunt vel repellendus ipsa, iure adipisci saepe quidem in cum sequi maxime tempora numquam!",
+		"bigImg": {
+			"src": "./assets/img/march-band.jpg",
+			"alt": "Banda de música desfilando"
+		},
+		"smallImg": {
+			"src": "./assets/img/old-band.jpg",
+			"alt": "Banda de música hace muchos años"
+		}
+	},
+	"secondSectionOne": {
+		"title": "Asociaciones",
+		"content": [
+			{
+				"title": "Asociación Cultural Las Canales",
+				"text": "Padules"
+			},
+			{
+				"title": "Asociación Cultural Los Tres Caños",
+				"text": "Almócita"
+			},
+			{
+				"title": "Agrupación Musical Trémolo",
+				"text": "Ohanes"
+			}
+		]
+	},
+	"secondSectionTwo": {
+		"title": "Banda de música",
+		"content": "La banda de música de la U.M. P.A.O. está formada por músicos de muy variadas edades, en su mayoría amateurs o semiprofesionales, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias sapiente modi consequatur dolores, id architecto ex, aut ullam velit quisquam quam quasi nostrum quis ipsum, accusamus, tempore officia odio hic!"
+	}
+}

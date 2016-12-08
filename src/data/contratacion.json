@@ -1,0 +1,58 @@
+{
+	"title": "Contratación",
+	"header": {
+		"headline": "Contratación",
+		"img": "./assets/img/header.png"
+	},
+	"description": {
+		"title": "Una opción segura",
+		"text": [
+			"Tenemos una experiencia de más de 10 años como Unión Musical, y de más de 30 como asociaciones independientes, en amenizar fiestas tanto religiosas como cívicas, acompañar procesiones, conciertos, y todo tipo de eventos. Contamos con un amplio repertorio de marchas de procesión, pasodobles, pasacalles, obras de concierto, bandas sonoras, obras clásicas, jazz, músicas étnicas, etc."
+		]
+	},
+	"contractors": {
+		"title": "Algunas organizaciones que han contado con nosotros",
+		"content": [
+			{
+				"title": "Ayuntamiento de Padules",
+				"text": "Padules"
+			},
+			{
+				"title": "Ayuntamiento de Almócita",
+				"text": "Almócita"
+			},
+			{
+				"title": "Ayuntamiento de Ohanes",
+				"text": "Ohanes"
+			},
+			{
+				"title": "Ayuntamiento de Beires",
+				"text": "Beires"
+			},
+			{
+				"title": "Cofradía de la Verónica",
+				"text": "Berja"
+			},
+			{
+				"title": "Cofradía del Santo Entierro",
+				"text": "Rioja"
+			},
+			{
+				"title": "Hermandad de Ntra. Sra. de Consolación de Tices",
+				"text": "Ohanes"
+			},
+			{
+				"title": "Asociación ANDA",
+				"text": "Almería"
+			}
+		]
+	},
+	"cta": {
+		"text": "Hablemos",
+		"button": {
+			"text": "Contáctanos",
+			"href": "contacto.html"
+		}
+	}
+
+}

@@ -1,0 +1,47 @@
+{
+	"title": "All that jazz!",
+	"header": {
+		"headline": "All that jazz!",
+		"img": "jazz.png"
+	},
+	"firstSection": {
+		"title": "«Don't play jazz, let jazz play you» - Charlie Parker",
+		"text": "Hemo de reconocerlo, el jazz nos vuelve locos. El jazz es indomable como un caballo salvaje, pero cuando consigues que te acepte, te lleva a su lomo a lugares insospechados. En este proyecto hacemos un repaso por algunos de los estándares más significativos del género.",
+		"bigImg": {
+			"src": "./assets/img/jazz-big.png",
+			"alt": "All that jazz!"
+		},
+		"smallImg": {
+			"src": "./assets/img/jazz-small.png",
+			"alt": "All that jazz!"
+		}
+	},
+	"videosSection": {
+		"video": {
+			"title": "Summertime",
+			"subtitle": "George Gershin",
+			"src": "./assets/video/summertime.mp4"
+		}
+	},
+	"repertorio": {
+		"title": "Repertorio",
+		"bigImg": {
+			"src": "./assets/img/partitura1.png",
+			"alt": "Repertorio"
+		},
+		"smallImg": {
+			"src": "./assets/img/partitura2.png",
+			"alt": "Repertorio"
+		},
+		"list": [
+			"Summertime",
+			"Take five",
+			"Trumpet boogie",
+			"In the mood",
+			"Pennsylvania 6-5000",
+			"Moonlight serenade",
+			"Yardbird suite",
+			"Freddie Freeloader"
+		]
+	}
+}

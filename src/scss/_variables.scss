@@ -1,1 +1,65 @@
 $space_mod: 15px;
+
+// Global Typography
+$background-color: #fff !default;
+$font-family: sans-serif !default;
+$font-size: 16 !default;
+$line-height: 22 !default;
+$font-weight: 400 !default;
+$font-color: #000 !default;
+$link-color: #000 !default;
+$link-hover-color: #000 !default;
+
+// Headings
+$heading-font-family: sans-serif !default;
+$h1-font-size: 32 !default;
+$h1-line-height: 38 !default;
+$h1-font-weight: 700 !default;
+$h1-color: #000 !default;
+$h2-font-size: 26 !default;
+$h2-line-height: 32 !default;
+$h2-font-weight: 700 !default;
+$h2-color: #000 !default;
+$h3-font-size: 22 !default;
+$h3-line-height: 28 !default;
+$h3-font-weight: 700 !default;
+$h3-color: #000 !default;
+$h4-font-size: 18 !default;
+$h4-line-height: 24 !default;
+$h4-font-weight: 700 !default;
+$h4-color: #000 !default;
+$h5-font-size: 16 !default;
+$h5-line-height: 22 !default;
+$h5-font-weight: 700 !default;
+$h5-color: #000 !default;
+$h6-font-size: 14 !default;
+$h6-line-height: 20 !default;
+$h6-font-weight: 700 !default;
+$h6-color: #000 !default;
+
+// Forms
+$input-height: 36px !default;
+$input-placeholder-color: #999 !default;
+$input-color: #000 !default;
+$input-background-color: #fff !default;
+$input-background-focus-color: #fff !default;
+$input-border-color: #ccc !default;
+$input-border-focus-color: #f7c723 !default;
+$select-box-height: 36px;
+
+// Grid Containers
+$container: 100% !default;
+$container-m: 720px !default;
+$container-l: 960px !default;
+$container-xl: 1120px !default;
+
+// Grid Gutters
+$grid-gutter: $space_mod !default;
+$grid-gutter-m: $space_mod !default;
+$grid-gutter-l: $space_mod !default;
+$grid-gutter-xl: $space_mod !default;
+
+// Responsive Breakpoints
+$breakpoint-m: ($container-m + 20) !default;
+$breakpoint-l: ($container-l + 20) !default;
+$breakpoint-xl: ($container-xl + 20) !default;

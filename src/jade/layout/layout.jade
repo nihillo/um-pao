@@ -1,7 +1,7 @@
 html
-	block vars
+	//- block vars
 	head
-		title #{data.title}
+		title UM PAO - #{title}
 		link(rel="stylesheet", href="styles.css")
 	body
 		include ../components/nav
@@ -9,6 +9,6 @@ html
 		block header
 		
 		.main
-			block content
+			block main-content
 		
 		include ../components/footer

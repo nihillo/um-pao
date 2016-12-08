@@ -1,0 +1,21 @@
+include ../components/header
+include ../components/sections
+include ../components/video-article
+include ../components/cards
+
+
+extends ../layout/layout.jade
+
+
+block header
+	+header(header.headline, header.img)
+
+block main-content
+	+section-onlytext(description.title, description.text)
+
+	+section-sl(contractors.title)
+		block contractors-content
+			each element in contractors.content
+					+card-simple(element.title, element.text)
+					
+	+section-cta(cta.text, cta.button.text, cta.button.href)

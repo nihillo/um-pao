@@ -1,0 +1,49 @@
+{
+	"title": "Proyectos",
+	"header": {
+		"headline": "Proyectos",
+		"img": "./assets/img/header.png"
+	},
+	"enCurso": {
+		"title": "En curso",
+		"content": [
+			{
+				"title": "Música de cine",
+				"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, ea, cumque. Eveniet suscipit debitis atque, eaque soluta provident deleniti, officia maiores odio aliquid ipsa nemo, beatae, quos quae reprehenderit ab.",
+				"imgSrc": "./assets/img/cine.png",
+				"href": "musica-de-cine.html"
+			},
+			{
+				"title": "Mitos y leyendas",
+				"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, ea, cumque. Eveniet suscipit debitis atque, eaque soluta provident deleniti, officia maiores odio aliquid ipsa nemo, beatae, quos quae reprehenderit ab.",
+				"imgSrc": "./assets/img/mitos.png",
+				"href": "mitos-y-leyendas.html"
+			}
+		]
+	},
+	"anteriores": {
+		"title": "Anteriores",
+		"content": [
+			{
+				"title": "All that jazz!",
+				"imgSrc": "./assets/img/jazz.png",
+				"href": "all-that-jazz.html"
+			},
+			{
+				"title": "Encuentro Coral Sur 2016",
+				"imgSrc": "./assets/img/coral.png",
+				"href": "ecs-2016.html"
+			},
+			{
+				"title": "The rocky road to Dublin",
+				"imgSrc": "./assets/img/road.png",
+				"href": "rocky-road-to-dublin.html"
+			},
+			{
+				"title": "Rabbia e tarantella",
+				"imgSrc": "./assets/img/tarantella.png",
+				"href": "rabbia-e-tarantella.html"
+			}
+		]
+	}	
+}

@@ -1,0 +1,45 @@
+{
+	"title": "Rabbia e tarantella",
+	"header": {
+		"headline": "Rabbia e tarantella",
+		"img": "tarantella.png"
+	},
+	"firstSection": {
+		"title": "Un acercamiento al folk italiano",
+		"text": "En este proyecto exploramos algunas de las canciones más populares del folk italiano, especialmente del sur del país.",
+		"bigImg": {
+			"src": "./assets/img/tarantella-big.png",
+			"alt": "Rabbia e tarantella"
+		},
+		"smallImg": {
+			"src": "./assets/img/tarantella-small.png",
+			"alt": "Rabbia e tarantella"
+		}
+	},
+	"videosSection": {
+		"video": {
+			"title": "La danza",
+			"subtitle": "Gioacchino Rossini",
+			"src": "./assets/video/la-danza.mp4"
+		}
+	},
+	"repertorio": {
+		"title": "Repertorio",
+		"bigImg": {
+			"src": "./assets/img/partitura1.png",
+			"alt": "Repertorio"
+		},
+		"smallImg": {
+			"src": "./assets/img/partitura2.png",
+			"alt": "Repertorio"
+		},
+		"list": [
+			"Tarantella napoletana",
+			"Pizzica salentina",
+			"Le radici ca tieni",
+			"Ballo di San Vito",
+			"La danza",
+			"Rabbia e tarantella"
+		]
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"title": "",
+	"header": {
+		"headline": "",
+		"img": ""
+	},
+	"firstSection": {
+		"title": "",
+		"text": "",
+		"bigImg": {
+			"src": "",
+			"alt": ""
+		},
+		"smallImg": {
+			"src": "",
+			"alt": ""
+		}
+	},
+	"videosSection": {
+		"video": {
+			"title": "",
+			"subtitle": "",
+			"src": ""
+		}
+	},
+	"repertorio": {
+		"title": "Repertorio",
+		"bigImg": {
+			"src": "./assets/img/partitura1.png",
+			"alt": "Repertorio"
+		},
+		"smallImg": {
+			"src": "./assets/img/partitura2.png",
+			"alt": "Repertorio"
+		},
+		"list": []
+	}
+}

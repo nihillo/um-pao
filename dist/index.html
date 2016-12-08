@@ -1,20 +1,20 @@
 
 <html>
   <head>
-    <title>Home</title>
+    <title>UM PAO - Home</title>
     <link rel="stylesheet" href="styles.css"/>
   </head>
   <body>
     <nav class="col-12">
       <div class="logo"><img src="assets/img/logo.png" alt="Unión Musical PAO"/></div>
       <ul>
-        <li>Home</li>
-        <li>UM PAO</li>
-        <li>Proyectos</li>
-        <li>Únete</li>
-        <li>Contratación</li>
-        <li>Contacto</li>
-        <li>Login</li>
+        <li> <a href="index.html">Home</a></li>
+        <li> <a href="um-pao.html">UM PAO</a></li>
+        <li> <a href="proyectos.html">Proyectos</a></li>
+        <li> <a href="unete.html">Únete</a></li>
+        <li> <a href="contratacion.html">Contratación</a></li>
+        <li> <a href="contacto.html">Contacto</a></li>
+        <li> <a href="login.html">Login</a></li>
       </ul>
       <button class="toggle">menu</button>
     </nav>
@@ -22,9 +22,39 @@
       <h1>La música que nos une</h1>
     </header>
     <div class="main">
-      <section>
+      <section class="fl">
         <h2>First section title</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta error autem est deserunt quis labore voluptate, sed inventore voluptas? Magnam id, maxime quas eligendi ipsa ratione alias? Ut, velit, non.</p><img src="./assets/img/march-band.jpg" alt="Banda de música desfilando" class="img-fls-big"/><img src="./assets/img/old-band.jpg" alt="Banda de música hace muchos años" class="img-fls-small"/>
+      </section>
+      <section>
+        <article>
+          <h3>Encuentro Coral Sur 2016</h3>
+          <p class="subtitle">Moment for Morricone - U.M. P.A.O., Coros Ohanes, Arsys y Al-husaina</p>
+          <video controls="controls">
+            <source src="assets/video/morricone.mp4" type="video/mp4"/>
+          </video>
+        </article>
+        <article>
+          <video controls="controls">
+            <source src="assets/video/madruga.mp4" type="video/mp4"/>
+          </video>
+          <h3>Semana Santa 2013</h3>
+          <p class="subtitle">Berja - Salida procesional de la Verónica - La Madrugá, Abel Moreno</p>
+        </article>
+      </section>
+      <section>
+        <h2>Próximas actuaciones</h2>
+        <div class="card">
+          <h4>card1</h4>
+          <p>lorem card1 ipsum dolor</p>
+        </div>
+        <div class="card">
+          <h4>card2</h4>
+          <p>lorem card2 ipsum dolor sit</p>
+        </div>
+      </section>
+      <section>
+        <p class="text-cta">¿Quieres unirte a nosotros? ¿Tu cofradía, asociación o colectivo está interesado en contratarnos? ¿Tienes alguna duda o sugerencia?</p><a href="contacto.html" class="btn btn-cta">Contáctanos</a>
       </section>
     </div>
     <footer> 

@@ -1,0 +1,48 @@
+{
+	"title": "Home",
+	"headline": "La música que nos une",
+	"firstSection": {
+		"title": "First section title",
+		"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta error autem est deserunt quis labore voluptate, sed inventore voluptas? Magnam id, maxime quas eligendi ipsa ratione alias? Ut, velit, non.",
+		"bigImg": {
+			"src": "./assets/img/march-band.jpg",
+			"alt": "Banda de música desfilando"
+		},
+		"smallImg": {
+			"src": "./assets/img/old-band.jpg",
+			"alt": "Banda de música hace muchos años"
+		}
+	},
+	"videosSection": {
+		"videoFirst": {
+			"title": "Encuentro Coral Sur 2016",
+			"subtitle": "Moment for Morricone - U.M. P.A.O., Coros Ohanes, Arsys y Al-husaina",
+			"src": "assets/video/morricone.mp4"
+		},
+		"videoSecond": {
+			"title": "Semana Santa 2013",
+			"subtitle": "Berja - Salida procesional de la Verónica - La Madrugá, Abel Moreno",
+			"src": "assets/video/madruga.mp4"
+		}
+	},
+	"secondSection": {
+		"title": "Próximas actuaciones",
+		"content": [
+			{
+				"title": "card1",
+				"text": "lorem card1 ipsum dolor"
+			},
+			{
+				"title": "card2",
+				"text": "lorem card2 ipsum dolor sit"
+			}
+		]
+	},
+	"cta": {
+		"text": "¿Quieres unirte a nosotros? ¿Tu cofradía, asociación o colectivo está interesado en contratarnos? ¿Tienes alguna duda o sugerencia?",
+		"button": {
+			"text": "Contáctanos",
+			"href": "contacto.html"
+		}
+	}
+}

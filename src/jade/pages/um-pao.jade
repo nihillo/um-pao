@@ -1,0 +1,23 @@
+include ../components/header
+include ../components/sections
+include ../components/video-article
+include ../components/cards
+
+
+extends ../layout/layout.jade
+
+
+block header
+	+header(header.headline, header.img)
+
+block main-content
+	+section-fl(firstSection.title, firstSection.text, firstSection.bigImg.src, firstSection.bigImg.alt, firstSection.smallImg.src, firstSection.smallImg.alt)
+
+	+section-sl(secondSectionOne.title)
+		block sectionOne-content
+			each element in secondSectionOne.content
+					+card-simple(element.title, element.text)
+
+	+section-sl(secondSectionTwo.title)
+		block sectionTwo-content
+			p= secondSectionTwo.content

@@ -1,0 +1,19 @@
+include ../components/header
+include ../components/sections
+include ../components/video-article
+include ../components/cards
+
+
+
+extends ../layout/layout.jade
+
+block header
+	+header(header.headline, header.img)
+
+block main-content
+	+section-fl(firstSection.title, firstSection.text, firstSection.bigImg.src, firstSection.bigImg.alt, firstSection.smallImg.src, firstSection.smallImg.alt)
+
+	section
+		+video-art-right(videosSection.video.title, videosSection.video.subtitle, videosSection.video.src)
+
+	+section-rep(repertorio.title, repertorio.bigImg.src, repertorio.bigImg.alt, repertorio.smallImg.src, repertorio.smallImg.alt, repertorio.list)
