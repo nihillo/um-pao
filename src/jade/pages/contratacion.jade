@@ -10,12 +10,20 @@ extends ../layout/layout.jade
 block header
 	+header(header.headline, header.img)
 
+block breadcrumbs
+	div.breadcrumbs
+		small.container
+			span 
+				a(href="index.html") HOME
+			| &nbsp;&gt;&nbsp;
+			span CONTRATACIÓN
+
 block main-content
 	+section-onlytext(description.title, description.text)
+
+	+section-cta(cta.text, cta.button.text, cta.button.href)
 
 	+section-sl(contractors.title)
 		block contractors-content
 			each element in contractors.content
 					+card-simple(element.title, element.text)
-					
-	+section-cta(cta.text, cta.button.text, cta.button.href)

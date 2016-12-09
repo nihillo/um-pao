@@ -2,17 +2,17 @@
 	"title": "Rabbia e tarantella",
 	"header": {
 		"headline": "Rabbia e tarantella",
-		"img": "bg-tarantella.png"
+		"img": "./assets/img/bg-tarantella.jpg"
 	},
 	"firstSection": {
 		"title": "Un acercamiento al folk italiano",
 		"text": "En este proyecto exploramos algunas de las canciones más populares del folk italiano, especialmente del sur del país.",
 		"bigImg": {
-			"src": "./assets/img/tarantella-big.png",
+			"src": "./assets/img/tarantella-big.jpg",
 			"alt": "Rabbia e tarantella"
 		},
 		"smallImg": {
-			"src": "./assets/img/tarantella-small.png",
+			"src": "./assets/img/tarantella-small.jpg",
 			"alt": "Rabbia e tarantella"
 		}
 	},
@@ -20,17 +20,17 @@
 		"video": {
 			"title": "La danza",
 			"subtitle": "Gioacchino Rossini",
-			"src": "./assets/video/la-danza.mp4"
+			"src": "https://www.youtube.com/embed/0GXaip_Gtqw"
 		}
 	},
 	"repertorio": {
 		"title": "Repertorio",
 		"bigImg": {
-			"src": "./assets/img/partitura1.png",
+			"src": "./assets/img/partitura1.jpg",
 			"alt": "Repertorio"
 		},
 		"smallImg": {
-			"src": "./assets/img/partitura2.png",
+			"src": "./assets/img/partitura2.jpg",
 			"alt": "Repertorio"
 		},
 		"list": [

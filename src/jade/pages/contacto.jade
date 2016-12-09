@@ -9,12 +9,20 @@ extends ../layout/layout.jade
 block header
 	+header(header.headline, header.img)
 
+block breadcrumbs
+	div.breadcrumbs
+		small.container
+			span 
+				a(href="index.html") HOME
+			| &nbsp;&gt;&nbsp;
+			span CONTACTO
+
 block main-content
 	+section-sl(direcciones.title)
 		block direcciones-content
 			ul
 			each element in direcciones.content
-					li element.text
+					li #{element}
 
 	+section-sl(sedes.title)
 		block sedes-content

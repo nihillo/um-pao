@@ -2,17 +2,17 @@
 	"title": "Mitos y leyendas",
 	"header": {
 		"headline": "Mitos y leyendas",
-		"img": "bg-mitos.png"
+		"img": "./assets/img/bg-mitos.jpg"
 	},
 	"firstSection": {
 		"title": "Un paseo sonoro por nuestro folklore",
 		"text": "Los mitos y las leyendas componen una parte muy importante del acervo cultural de las sociedades. Un halo místico en torno a qué partes son reales y cuales no las envuelve, maravillando siempre al espectador. En este espectáculo narrativo-musical hacemos un paseo por algunos de los mitos y leyendas que a lo largo de siglos han ido construyendo parte del folklore de la cultura global occidental.",
 		"bigImg": {
-			"src": "./assets/img/mitos-big.png",
+			"src": "./assets/img/mitos-big.jpg",
 			"alt": "Mitos y leyendas"
 		},
 		"smallImg": {
-			"src": "./assets/img/mitos-small.png",
+			"src": "./assets/img/mitos-small.jpg",
 			"alt": "Mitos y leyendas"
 		}
 	},
@@ -20,17 +20,17 @@
 		"video": {
 			"title": "Ireland, of legend and lore",
 			"subtitle": "Robert W. Smith",
-			"src": "./assets/video/ireland.mp4"
+			"src": "https://www.youtube.com/embed/fQ0H49aL2EA"
 		}
 	},
 	"repertorio": {
 		"title": "Repertorio",
 		"bigImg": {
-			"src": "./assets/img/partitura1.png",
+			"src": "./assets/img/partitura1.jpg",
 			"alt": "Repertorio"
 		},
 		"smallImg": {
-			"src": "./assets/img/partitura2.png",
+			"src": "./assets/img/partitura2.jpg",
 			"alt": "Repertorio"
 		},
 		"list": [

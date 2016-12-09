@@ -5,22 +5,25 @@ mixin card-simple(title, content)
 
 
 mixin card-img-big-right(title, content, imgSrc, href)
-	.card.card-img.card-img-big.card-big-right.col-12(style="background-image: url('#{imgSrc}')")
-		a(href="#{href}")
-			.card-text-wrapper.col-8.push-4
-				h4 #{title}
-				p #{content}
+	.wrapper.col-12
+		.card.card-img.card-img-big.card-big-right(style="background-image: url('#{imgSrc}')")
+			a(href="#{href}")
+				.card-text-wrapper.col-8.push-4
+					h4 #{title}
+					p #{content}
 
 mixin card-img-big-left(title, content, imgSrc, href)
-	.card.card-img.card-img-big.card-big-left.col-12(style="background-image: url('#{imgSrc}')")
-		a(href="#{href}")
-			.card-text-wrapper.col-8
-				h4 #{title}
-				p #{content}
+	.wrapper.col-12
+		.card.card-img.card-img-big.card-big-left(style="background-image: url('#{imgSrc}')")
+			a(href="#{href}")
+				.card-text-wrapper.col-8
+					h4 #{title}
+					p #{content}
 
 
 mixin card-img-small(title, imgSrc, href)
-	.card.card-img.card-img-small.col-12(style="background-image: url('#{imgSrc}')")
-		.card-text-wrapper.col-12
-			a(href="#{href}")
-				h4 #{title}
+	.wrapper.col-12.col-6-m
+		.card.card-img.card-img-small(style="background-image: url('#{imgSrc}')")
+			.card-text-wrapper.col-12
+				a(href="#{href}")
+					h4 #{title}

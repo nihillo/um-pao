@@ -2,35 +2,35 @@
 	"title": "The rocky road to Dublin",
 	"header": {
 		"headline": "The rocky road to Dublin",
-		"img": "bg-dublin.png"
+		"img": "./assets/img/bg-road.jpg"
 	},
 	"firstSection": {
 		"title": "Un acercamiento al folk irlandés",
 		"text": "En este proyecto exploramos algunas de las canciones más populares del folk irlandés y de las culturas de origen celta en general.",
 		"bigImg": {
-			"src": "./assets/img/dublin-big.png",
+			"src": "./assets/img/dublin-big.jpg",
 			"alt": "The rocky road to Dublin"
 		},
 		"smallImg": {
-			"src": "./assets/img/dublin-small.png",
+			"src": "./assets/img/dublin-small.jpg",
 			"alt": "The rocky road to Dublin"
 		}
 	},
 	"videosSection": {
 		"video": {
-			"title": "O Fortuna",
-			"subtitle": "Carmina Burana - Carl Orff",
-			"src": "./assets/video/o-fortuna.mp4"
+			"title": "Gaelforce",
+			"subtitle": "Peter Graham",
+			"src": "https://www.youtube.com/embed/wM46eetfvN8"
 		}
 	},
 	"repertorio": {
 		"title": "Repertorio",
 		"bigImg": {
-			"src": "./assets/img/partitura1.png",
+			"src": "./assets/img/partitura1.jpg",
 			"alt": "Repertorio"
 		},
 		"smallImg": {
-			"src": "./assets/img/partitura2.png",
+			"src": "./assets/img/partitura2.jpg",
 			"alt": "Repertorio"
 		},
 		"list": [

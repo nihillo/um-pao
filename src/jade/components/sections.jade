@@ -1,9 +1,10 @@
 mixin section-fl(title, text, bigImgSrc, bigImgAlt, smallImgSrc, smallImgAlt)
 	section.section-fl
-		h2.col-12.push-6-xl #{title}
-		p.col-12.col-5-xl.push-7-xl #{text}
-		img.img-fl-big.col-7-m(src="#{bigImgSrc}", alt="#{bigImgAlt}")
-		img.img-fl-small.col-5-m.col-4-l.push-1-l(src="#{smallImgSrc}", alt="#{smallImgAlt}")
+		h2.col-12 #{title}
+		p.col-12.col-6-xl #{text}
+		img.img-fl-small.col-5-m.col-4-l(src="#{smallImgSrc}", alt="#{smallImgAlt}")
+		img.img-fl-big.col-7-m.push-1-xl(src="#{bigImgSrc}", alt="#{bigImgAlt}")
+		
 
 mixin section-sl(title)
 	//- title: section title
@@ -17,7 +18,7 @@ mixin section-sl(title)
 mixin section-cta(text, btnText, btnHref)
 	section.section-cta
 		p.text-cta.col-12.col-10-l.cta-text #{text}
-		.col.12.btn-wrapper
+		.col-12.col-6-l.push-6-l.btn-wrapper
 			a.btn.btn-cta.col-12(href="#{btnHref}") #{btnText}
 
 
@@ -29,15 +30,17 @@ mixin section-cards(title)
 
 mixin section-onlytext(title, text)
 	section.section-onlytext
-		h2 #{title}
+		h2.col-12 #{title}
 	each paragraph in text
 		p #{paragraph}
 
 mixin section-rep(title, bigImgSrc, bigImgAlt, smallImgSrc, smallImgAlt, repertorio)
 	section.section-rep
-		h2 #{title}
-		ul
-		each obra in repertorio
-			li #{obra}
-		img.img-fls-big(src="#{bigImgSrc}", alt="#{bigImgAlt}")
-		img.img-fls-small(src="#{smallImgSrc}", alt="#{smallImgAlt}")
+		.section-rep-text.col-12.col-6-m
+			h2 #{title}
+			ul
+			each obra in repertorio
+				li #{obra}
+		img.img-rep-small.col-3-m.push-3-m(src="#{smallImgSrc}", alt="#{smallImgAlt}")
+		img.img-rep-big.col-5-m.pull-1-m(src="#{bigImgSrc}", alt="#{bigImgAlt}")
+		

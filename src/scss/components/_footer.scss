@@ -1,4 +1,5 @@
 footer {
+
 	height: 330px;
 	background-color: $black;
 	color: $grey-dark;
@@ -16,5 +17,9 @@ footer {
 	.fa {
 		font-size: 2em;
 		margin-right: $space_mod;
+	}
+
+	@include breakpoint(l) {
+		height: 140px;
 	}
 }

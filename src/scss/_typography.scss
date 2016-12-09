@@ -98,3 +98,8 @@ small, .small {
     @include font-size($font-size*1.2)
   }
 }
+
+//Lists 
+li {
+  list-style: none;
+}

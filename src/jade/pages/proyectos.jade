@@ -7,6 +7,14 @@ extends ../layout/layout.jade
 block header
 	+header(header.headline, header.img)
 
+block breadcrumbs
+	div.breadcrumbs
+		small.container
+			span 
+				a(href="index.html") HOME
+			| &nbsp;&gt;&nbsp;
+			span PROYECTOS
+
 block main-content
 	+section-cards(enCurso.title)
 		block en-curso

@@ -6,17 +6,21 @@
 
 
 .section-fl {
-	@include breakpoint(xl) {
-		h2, p {
-			position: relative;
-			top: $space_mod * 35;
-			z-index: 10;
-		}
-	}
+	// @include breakpoint(xl) {
+	// 	h2, p {
+	// 		position: relative;
+	// 		top: $space_mod * 42;
+	// 		z-index: 10;
+	// 	}
+	// }
 }
 
 .img-fl-big {
 	margin-top: $space_mod * 2;	
+
+	@include breakpoint(xl) {
+		margin-top: $space_mod * -4;	
+	}
 }
 
 .img-fl-small {
@@ -24,6 +28,11 @@
 
 	@include breakpoint(m) {
 		display: inline;
+	}
+
+	@include breakpoint(xl) {
+		margin-top: $space_mod * 4;
+		margin-bottom: $space_mod * 8;	
 	}
 }
 
@@ -40,4 +49,37 @@
 	font-size: 1.2em;
 	line-height: 1.3em;
 	font-weight: bold;
+}
+
+
+.section-rep {
+
+}
+
+.section-rep-text {
+	background-color: $grey-light;
+	padding-top: $space_mod * 2;
+	padding-bottom: $space_mod * 2;
+}
+
+.img-rep-big, .img-rep-small {
+	display: none;
+
+	@include breakpoint(l) {
+		display: inline;
+		z-index: 20;
+	}
+}
+
+.img-rep-big {
+	@include breakpoint(m) {
+		z-index: -1;
+	}
+}
+
+.img-rep-small {
+	@include breakpoint(m) {
+		top: 2 * $space_mod;
+	}
+
 }

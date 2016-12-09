@@ -5,6 +5,7 @@
 }
 
 .btn {
+  border: 0;
   text-transform: uppercase;
   text-align: center;
   cursor: pointer;
@@ -21,7 +22,12 @@
   &:hover { background: $color-main; color: $white}
 }
 .btn-primary {
-  // Add your styles here
+  background-color: $color-main;
+  color: $white;
+   &:hover {
+    background: $color-main-darker;
+    // color: $black;
+  }
 }
 .btn-secondary {
   // Add your styles here
@@ -33,4 +39,8 @@
     background: $color-contrast-darker;
     color: $black;
   }
+}
+
+.btn-submit {
+  margin-top: $space_mod;
 }

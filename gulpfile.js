@@ -82,6 +82,8 @@ gulp.task('watch', function() {
     gulp.watch('./src/**/*.jade', ['html']);
     gulp.watch('./src/**/*.json', ['html']);
 
+    //Watch assets
+    gulp.watch('./src/assets/**/*', ['assets']);
 });
 
 

@@ -2,7 +2,7 @@
 	"title": "Encuentro Coral Sur 2016",
 	"header": {
 		"headline": "Encuentro Coral Sur 2016",
-		"img": "bg-ecs.png"
+		"img": "./assets/img/bg-coral.jpg"
 	},
 	"firstSection": {
 		"title": "Tres días para compartir experiencias",
@@ -12,7 +12,7 @@
 			"alt": "Encuentro Coral Sur 2016"
 		},
 		"smallImg": {
-			"src": "./assets/img/ecs-small.png",
+			"src": "./assets/img/ecs-small.jpg",
 			"alt": "Encuentro Coral Sur 2016"
 		}
 	},
@@ -20,17 +20,17 @@
 		"video": {
 			"title": "O Fortuna",
 			"subtitle": "Carmina Burana - Carl Orff",
-			"src": "./assets/video/o-fortuna.mp4"
+			"src": "https://www.youtube.com/embed/IY6Im9fvCtg"
 		}
 	},
 	"repertorio": {
 		"title": "Repertorio",
 		"bigImg": {
-			"src": "./assets/img/partitura1.png",
+			"src": "./assets/img/partitura1.jpg",
 			"alt": "Repertorio"
 		},
 		"smallImg": {
-			"src": "./assets/img/partitura2.png",
+			"src": "./assets/img/partitura2.jpg",
 			"alt": "Repertorio"
 		},
 		"list": [

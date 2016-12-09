@@ -1,5 +1,5 @@
 mixin video-art-right(title, subtitle, src)
-	article.video-art.video-art-right
+	article.video-art.video-art-right.clear
 		div.col-12.col-4-l
 			h3 #{title}
 			p.subtitle #{subtitle}
@@ -7,7 +7,7 @@ mixin video-art-right(title, subtitle, src)
 			source(src="#{src}", type="video/mp4")
 
 mixin video-art-left(title, subtitle, src)
-	article.video-art.video-art-left
+	article.video-art.video-art-left.clear
 		div.col-12.col-4-l
 			h3 #{title}
 			p.subtitle.col-12 #{subtitle}
@@ -15,14 +15,14 @@ mixin video-art-left(title, subtitle, src)
 			source(src="#{src}", type="video/mp4")
 
 mixin video-yt-right(title, subtitle, src)
-	article.video-yt.video-yt-right
+	article.video-yt.video-yt-right.clear
 		div.col-12.col-4-l
 			h3 #{title}
 			p.subtitle #{subtitle}
-		iframe.col-8-l.push-4-l(width="560", height="315", src="#{src}", frameborder="0", allowfullscreen)
+		iframe.col-8-l(width="560", height="315", src="#{src}", frameborder="0", allowfullscreen)
 
 mixin video-yt-left(title, subtitle, src)
-	article.video-yt.video-yt-left
+	article.video-yt.video-yt-left.clear
 		div.col-12.col-4-l.push-8-l
 			h3 #{title}
 			p.subtitle #{subtitle}

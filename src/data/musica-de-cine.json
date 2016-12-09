@@ -2,35 +2,35 @@
 	"title": "Música de cine",
 	"header": {
 		"headline": "Música de cine",
-		"img": "bg-cine.png"
+		"img": "./assets/img/bg-cine.jpg"
 	},
 	"firstSection": {
 		"title": "Una inmersión musical en el séptimo arte",
 		"text": "Desde sus orígenes, el cine ha estado fuertemente ligado a la música. Incluso en la época del cine mudo, las proyecciones se acompañaban de música en directo. Esta indisociable simbiosis ha dado lugar a lo largo de las décadas a un género musical con entidad propia, el de las banda sonora. En este paseo exploramos algunas de las bandas sonoras más representativas de la historia del cine.",
 		"bigImg": {
-			"src": "./assets/img/cine-big.png",
+			"src": "./assets/img/cine-big.jpg",
 			"alt": "Música de cine"
 		},
 		"smallImg": {
-			"src": "./assets/img/cine-small.png",
+			"src": "./assets/img/cine-small.jpg",
 			"alt": "Música de cine"
 		}
 	},
 	"videosSection": {
 		"video": {
-			"title": "Moment for Morricone",
-			"subtitle": "Ennio Morricone, arr. Johan de Meij",
-			"src": "./assets/video/morricone.mp4"
+			"title": "La lista de Schindler",
+			"subtitle": "John Williams",
+			"src": "https://www.youtube.com/embed/yKLuizoH2p0"
 		}
 	},
 	"repertorio": {
 		"title": "Repertorio",
 		"bigImg": {
-			"src": "./assets/img/partitura1.png",
+			"src": "./assets/img/partitura1.jpg",
 			"alt": "Repertorio"
 		},
 		"smallImg": {
-			"src": "./assets/img/partitura2.png",
+			"src": "./assets/img/partitura2.jpg",
 			"alt": "Repertorio"
 		},
 		"list": [
