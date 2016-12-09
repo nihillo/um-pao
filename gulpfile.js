@@ -78,8 +78,9 @@ gulp.task('watch', function() {
     // Watch .js files
     gulp.watch('./src/**/*.js', ['js']);
 
-    // Watch .jade files
+    // Watch .jade and .json files
     gulp.watch('./src/**/*.jade', ['html']);
+    gulp.watch('./src/**/*.json', ['html']);
 
 });
 

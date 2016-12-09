@@ -1,0 +1,43 @@
+.main {
+	@extend .container;
+
+	padding-bottom: 4 * $space_mod;
+}
+
+
+.section-fl {
+	@include breakpoint(xl) {
+		h2, p {
+			position: relative;
+			top: $space_mod * 35;
+			z-index: 10;
+		}
+	}
+}
+
+.img-fl-big {
+	margin-top: $space_mod * 2;	
+}
+
+.img-fl-small {
+	display: none;
+
+	@include breakpoint(m) {
+		display: inline;
+	}
+}
+
+.videos {
+
+}
+
+
+.cta {
+
+}
+
+.cta-text {
+	font-size: 1.2em;
+	line-height: 1.3em;
+	font-weight: bold;
+}

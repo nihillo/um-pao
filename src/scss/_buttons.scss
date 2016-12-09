@@ -1,20 +1,36 @@
 // Custom Buttons
-.button {
+.btn-wrapper {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.btn {
+  text-transform: uppercase;
+  text-align: center;
   cursor: pointer;
-  border: 1px solid #d7d7d7;
-  background-color: #f3f3f3;
+  background-color: $grey-light;
   line-height: normal;
-  padding: 10px 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-decoration: none;
-  color: #363636;
+  color: $black;
   display: inline-block;
   transition: all 0.3s;
+  box-shadow: 2px 2px 5px darken($grey-light, 10%);
   &:hover, &:active { text-decoration: none; }
-  &:hover { background: #f9f9f9; }
+  &:hover { background: $color-main; color: $white}
 }
-.button-primary {
+.btn-primary {
   // Add your styles here
 }
-.button-secondary {
+.btn-secondary {
   // Add your styles here
+}
+.btn-cta {
+  background-color: $color-contrast;
+
+  &:hover {
+    background: $color-contrast-darker;
+    color: $black;
+  }
 }

@@ -46,17 +46,29 @@
 
 	'use strict';
 
-	var init = __webpack_require__(1);
+	var menu = __webpack_require__(1);
+
+	$('document').ready(function () {
+		menu.toggleMenu();
+	});
 
 /***/ },
 /* 1 */
 /***/ function(module, exports) {
 
-	"use strict";
+	'use strict';
 
-	function foo() {
-		// Nothing
+	function toggleMenu() {
+		$('#toggle-menu').click(function () {
+			$('#main-menu').toggle();
+			$('.fa-bars').toggle();
+			$('.fa-times').toggle();
+		});
 	}
+
+	module.exports = {
+		toggleMenu: toggleMenu
+	};
 
 /***/ }
 /******/ ]);

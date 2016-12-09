@@ -2,7 +2,7 @@
 	"title": "Home",
 	"headline": "La música que nos une",
 	"firstSection": {
-		"title": "First section title",
+		"title": "Tres pueblos, un ideal",
 		"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta error autem est deserunt quis labore voluptate, sed inventore voluptas? Magnam id, maxime quas eligendi ipsa ratione alias? Ut, velit, non.",
 		"bigImg": {
 			"src": "./assets/img/march-band.jpg",
@@ -20,21 +20,21 @@
 			"src": "assets/video/morricone.mp4"
 		},
 		"videoSecond": {
-			"title": "Semana Santa 2013",
-			"subtitle": "Berja - Salida procesional de la Verónica - La Madrugá, Abel Moreno",
-			"src": "assets/video/madruga.mp4"
+			"title": "Semana Santa 2014",
+			"subtitle": "Berja - Salida de la Verónica - Hosanna in Excelsis, Óscar Navarro",
+			"src": "https://www.youtube.com/embed/5fTNE43ZiBI?t=172"
 		}
 	},
 	"secondSection": {
 		"title": "Próximas actuaciones",
 		"content": [
 			{
-				"title": "card1",
-				"text": "lorem card1 ipsum dolor"
+				"title": "Conciertos de Navidad",
+				"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
 			},
 			{
-				"title": "card2",
-				"text": "lorem card2 ipsum dolor sit"
+				"title": "The rocky road to Dublin",
+				"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
 			}
 		]
 	},

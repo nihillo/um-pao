@@ -1,57 +1,66 @@
 $space_mod: 15px;
 
+// Colors
+$color-main: #37abc8;
+$color-main-darker: #047994;
+$color-main-lighter: #8ad6e8;
+
+$color-contrast: #ffc541;
+$color-contrast-darker: #f0a700;
+$color-contrast-lighter: #ffdf95;
+
+$white: #ffffff;
+$grey-light: #f2f2f2;
+$grey-dark: #999999;
+$black: #333333;
+
 // Global Typography
-$background-color: #fff !default;
-$font-family: sans-serif !default;
+$background-color: $white !default;
+$font-family: 'Montserrat', sans-serif !default;
 $font-size: 16 !default;
 $line-height: 22 !default;
-$font-weight: 400 !default;
-$font-color: #000 !default;
-$link-color: #000 !default;
-$link-hover-color: #000 !default;
+$font-weight: normal !default;
+$font-color: $black !default;
+$link-color: $color-main !default;
+$link-hover-color: $color-main-lighter !default;
 
 // Headings
-$heading-font-family: sans-serif !default;
-$h1-font-size: 32 !default;
-$h1-line-height: 38 !default;
-$h1-font-weight: 700 !default;
-$h1-color: #000 !default;
-$h2-font-size: 26 !default;
-$h2-line-height: 32 !default;
-$h2-font-weight: 700 !default;
-$h2-color: #000 !default;
-$h3-font-size: 22 !default;
+$heading-font-family: 'Montserrat', sans-serif !default;
+$h1-font-size: 42 !default;
+$h1-line-height: 46 !default;
+$h1-font-weight: bold !default;
+$h1-color: $black !default;
+
+$h2-font-size: 36 !default;
+$h2-line-height: 40 !default;
+$h2-font-weight: bold !default;
+$h2-color: $black !default;
+
+$h3-font-size: 24 !default;
 $h3-line-height: 28 !default;
-$h3-font-weight: 700 !default;
-$h3-color: #000 !default;
-$h4-font-size: 18 !default;
+$h3-font-weight: bold !default;
+$h3-color: $black !default;
+
+$h4-font-size: 20 !default;
 $h4-line-height: 24 !default;
-$h4-font-weight: 700 !default;
-$h4-color: #000 !default;
-$h5-font-size: 16 !default;
-$h5-line-height: 22 !default;
-$h5-font-weight: 700 !default;
-$h5-color: #000 !default;
-$h6-font-size: 14 !default;
-$h6-line-height: 20 !default;
-$h6-font-weight: 700 !default;
-$h6-color: #000 !default;
+$h4-font-weight: bold !default;
+$h4-color: $black !default;
 
 // Forms
 $input-height: 36px !default;
-$input-placeholder-color: #999 !default;
-$input-color: #000 !default;
-$input-background-color: #fff !default;
-$input-background-focus-color: #fff !default;
-$input-border-color: #ccc !default;
-$input-border-focus-color: #f7c723 !default;
+$input-placeholder-color: $grey-dark !default;
+$input-color: $black !default;
+$input-background-color: $white !default;
+$input-background-focus-color: $white !default;
+$input-border-color: $grey-light !default;
+$input-border-focus-color: $color-main-lighter !default;
 $select-box-height: 36px;
 
 // Grid Containers
 $container: 100% !default;
 $container-m: 720px !default;
 $container-l: 960px !default;
-$container-xl: 1120px !default;
+$container-xl: 1400px !default;
 
 // Grid Gutters
 $grid-gutter: $space_mod !default;

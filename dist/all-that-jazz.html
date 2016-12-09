@@ -1,41 +1,52 @@
-
-<html>
+<!DOCTYPE html>
+<html lang="es">
   <head>
+    <meta charset="UTF-8">
     <title>UM PAO - All that jazz!</title>
-    <link rel="stylesheet" href="styles.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
   </head>
   <body>
-    <nav class="col-12">
-      <div class="logo"><img src="assets/img/logo.png" alt="Unión Musical PAO"/></div>
-      <ul>
+    <nav class="main-nav">
+      <div class="logo"><a href="index.html"><img src="assets/img/logo.png" alt="Unión Musical PAO"></a></div>
+      <ul id="main-menu" class="main-menu">
         <li> <a href="index.html">Home</a></li>
         <li> <a href="um-pao.html">UM PAO</a></li>
         <li> <a href="proyectos.html">Proyectos</a></li>
         <li> <a href="unete.html">Únete</a></li>
         <li> <a href="contratacion.html">Contratación</a></li>
         <li> <a href="contacto.html">Contacto</a></li>
-        <li> <a href="login.html">Login</a></li>
       </ul>
-      <button class="toggle">menu</button>
+      <button id="toggle-menu" class="toggle-menu"> <i class="fa fa-bars"></i><i class="fa fa-times hide"></i></button>
     </nav>
-    <header>
-      <h1>All that jazz!</h1><img src="jazz.png" alt="All that jazz!"/>
+    <header style="background-image: url('bg-jazz.png')" class="header">
+      <div class="container">
+        <div class="row">
+          <h1 class="col-12">All that jazz!</h1>
+        </div>
+      </div>
     </header>
     <div class="main">
-      <section class="fl">
-        <h2>«Don't play jazz, let jazz play you» - Charlie Parker</h2>
-        <p>Hemo de reconocerlo, el jazz nos vuelve locos. El jazz es indomable como un caballo salvaje, pero cuando consigues que te acepte, te lleva a su lomo a lugares insospechados. En este proyecto hacemos un repaso por algunos de los estándares más significativos del género.</p><img src="./assets/img/jazz-big.png" alt="All that jazz!" class="img-fls-big"/><img src="./assets/img/jazz-small.png" alt="All that jazz!" class="img-fls-small"/>
+      <section class="section-fl">
+        <h2 class="col-12 push-6-xl">«Don't play jazz, let jazz play you» - Charlie Parker</h2>
+        <p class="col-12 col-5-xl push-7-xl">Hemo de reconocerlo, el jazz nos vuelve locos. El jazz es indomable como un caballo salvaje, pero cuando consigues que te acepte, te lleva a su lomo a lugares insospechados. En este proyecto hacemos un repaso por algunos de los estándares más significativos del género.</p><img src="./assets/img/jazz-big.png" alt="All that jazz!" class="img-fl-big col-7-m"/><img src="./assets/img/jazz-small.png" alt="All that jazz!" class="img-fl-small col-5-m col-4-l push-1-l"/>
       </section>
       <section>
-        <article>
-          <h3>Summertime</h3>
-          <p class="subtitle">George Gershin</p>
-          <video controls="controls">
+        <article class="video-art video-art-right">
+          <div class="col-12 col-4-l">
+            <h3>Summertime</h3>
+            <p class="subtitle">George Gershin</p>
+          </div>
+          <video controls="controls" class="col-8-l">
             <source src="./assets/video/summertime.mp4" type="video/mp4"/>
           </video>
         </article>
       </section>
-      <section>
+      <section class="section-rep">
         <h2>Repertorio</h2>
         <ul></ul>
         <li>Summertime</li>
@@ -49,7 +60,7 @@
       </section>
     </div>
     <footer> 
-      <div>
+      <div class="col-12">
         <h3>Unión Musical P.A.O.</h3>
         <ul>
           <li>Asociación Cultural Las Canales, Padules</li>
@@ -57,8 +68,8 @@
           <li>Agrupación Musical Trémolo, Ohanes</li>
         </ul>
       </div>
-      <div><i class="facebook"></i><i class="google-plus"></i><i class="twitter"></i></div>
-      <div>
+      <div class="col-12"><i class="fa fa-facebook-official"></i><i class="fa fa-google-plus-official"></i><i class="fa fa-twitter"></i></div>
+      <div class="col-12">
         <ul>
           <li>&copy;2016</li>
           <li>Aviso legal</li>

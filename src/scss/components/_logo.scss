@@ -2,7 +2,9 @@
 	width: $space_mod * 4;
 	height: $space_mod * 4;
 
-	// position: fixed;
+	position: relative;
+	top: $space_mod;
+	left: $space_mod;
 
 	img {
 		width: 100%;

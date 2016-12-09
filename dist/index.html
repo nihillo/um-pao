@@ -1,64 +1,78 @@
-
-<html>
+<!DOCTYPE html>
+<html lang="es">
   <head>
+    <meta charset="UTF-8">
     <title>UM PAO - Home</title>
-    <link rel="stylesheet" href="styles.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
   </head>
   <body>
-    <nav class="col-12">
-      <div class="logo"><img src="assets/img/logo.png" alt="Unión Musical PAO"/></div>
-      <ul>
+    <nav class="main-nav">
+      <div class="logo"><a href="index.html"><img src="assets/img/logo.png" alt="Unión Musical PAO"></a></div>
+      <ul id="main-menu" class="main-menu">
         <li> <a href="index.html">Home</a></li>
         <li> <a href="um-pao.html">UM PAO</a></li>
         <li> <a href="proyectos.html">Proyectos</a></li>
         <li> <a href="unete.html">Únete</a></li>
         <li> <a href="contratacion.html">Contratación</a></li>
         <li> <a href="contacto.html">Contacto</a></li>
-        <li> <a href="login.html">Login</a></li>
       </ul>
-      <button class="toggle">menu</button>
+      <button id="toggle-menu" class="toggle-menu"> <i class="fa fa-bars"></i><i class="fa fa-times hide"></i></button>
     </nav>
-    <header class="header-home">
-      <h1>La música que nos une</h1>
+    <header class="header header-home">
+      <div class="container">
+        <div class="row">
+          <h1 class="col-12">La música que nos une</h1>
+        </div>
+      </div>
     </header>
     <div class="main">
-      <section class="fl">
-        <h2>First section title</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta error autem est deserunt quis labore voluptate, sed inventore voluptas? Magnam id, maxime quas eligendi ipsa ratione alias? Ut, velit, non.</p><img src="./assets/img/march-band.jpg" alt="Banda de música desfilando" class="img-fls-big"/><img src="./assets/img/old-band.jpg" alt="Banda de música hace muchos años" class="img-fls-small"/>
+      <section class="section-fl">
+        <h2 class="col-12 push-6-xl">Tres pueblos, un ideal</h2>
+        <p class="col-12 col-5-xl push-7-xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta error autem est deserunt quis labore voluptate, sed inventore voluptas? Magnam id, maxime quas eligendi ipsa ratione alias? Ut, velit, non.</p><img src="./assets/img/march-band.jpg" alt="Banda de música desfilando" class="img-fl-big col-7-m"/><img src="./assets/img/old-band.jpg" alt="Banda de música hace muchos años" class="img-fl-small col-5-m col-4-l push-1-l"/>
       </section>
-      <section>
-        <article>
-          <h3>Encuentro Coral Sur 2016</h3>
-          <p class="subtitle">Moment for Morricone - U.M. P.A.O., Coros Ohanes, Arsys y Al-husaina</p>
-          <video controls="controls">
+      <section class="videos">
+        <article class="video-art video-art-right">
+          <div class="col-12 col-4-l">
+            <h3>Encuentro Coral Sur 2016</h3>
+            <p class="subtitle">Moment for Morricone - U.M. P.A.O., Coros Ohanes, Arsys y Al-husaina</p>
+          </div>
+          <video controls="controls" class="col-8-l">
             <source src="assets/video/morricone.mp4" type="video/mp4"/>
           </video>
         </article>
-        <article>
-          <video controls="controls">
-            <source src="assets/video/madruga.mp4" type="video/mp4"/>
-          </video>
-          <h3>Semana Santa 2013</h3>
-          <p class="subtitle">Berja - Salida procesional de la Verónica - La Madrugá, Abel Moreno</p>
+        <article class="video-yt video-yt-left">
+          <div class="col-12 col-4-l push-8-l">
+            <h3>Semana Santa 2014</h3>
+            <p class="subtitle">Berja - Salida de la Verónica - Hosanna in Excelsis, Óscar Navarro</p>
+          </div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/5fTNE43ZiBI?t=172" frameborder="0" allowfullscreen="allowfullscreen" class="col-8-l pull-4-l"></iframe>
         </article>
       </section>
-      <section>
-        <h2>Próximas actuaciones</h2>
-        <div class="card">
-          <h4>card1</h4>
-          <p>lorem card1 ipsum dolor</p>
-        </div>
-        <div class="card">
-          <h4>card2</h4>
-          <p>lorem card2 ipsum dolor sit</p>
+      <section class="section-sl">
+        <h2 class="col-12 col-6-l">Próximas actuaciones</h2>
+        <div class="col-12 col-6-l">
+          <div class="card card-simple">
+            <h4>Conciertos de Navidad</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+          <div class="card card-simple">
+            <h4>The rocky road to Dublin</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
         </div>
       </section>
-      <section>
-        <p class="text-cta">¿Quieres unirte a nosotros? ¿Tu cofradía, asociación o colectivo está interesado en contratarnos? ¿Tienes alguna duda o sugerencia?</p><a href="contacto.html" class="btn btn-cta">Contáctanos</a>
+      <section class="section-cta">
+        <p class="text-cta col-12 col-10-l cta-text">¿Quieres unirte a nosotros? ¿Tu cofradía, asociación o colectivo está interesado en contratarnos? ¿Tienes alguna duda o sugerencia?</p>
+        <div class="col 12 btn-wrapper"><a href="contacto.html" class="btn btn-cta col-12">Contáctanos</a></div>
       </section>
     </div>
     <footer> 
-      <div>
+      <div class="col-12">
         <h3>Unión Musical P.A.O.</h3>
         <ul>
           <li>Asociación Cultural Las Canales, Padules</li>
@@ -66,8 +80,8 @@
           <li>Agrupación Musical Trémolo, Ohanes</li>
         </ul>
       </div>
-      <div><i class="facebook"></i><i class="google-plus"></i><i class="twitter"></i></div>
-      <div>
+      <div class="col-12"><i class="fa fa-facebook-official"></i><i class="fa fa-google-plus-official"></i><i class="fa fa-twitter"></i></div>
+      <div class="col-12">
         <ul>
           <li>&copy;2016</li>
           <li>Aviso legal</li>

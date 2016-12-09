@@ -1,8 +1,15 @@
-html
-	//- block vars
+doctype html
+html(lang="es")
 	head
+		meta(charset="UTF-8")
 		title UM PAO - #{title}
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Montserrat:400,700")
+		link(href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css", rel="stylesheet", integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN", crossorigin="anonymous")
 		link(rel="stylesheet", href="styles.css")
+		script(src="https://code.jquery.com/jquery-2.2.4.min.js", integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=", crossorigin="anonymous")
+		script(src="scripts.js")
+
 	body
 		include ../components/nav
 

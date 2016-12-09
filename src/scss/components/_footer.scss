@@ -1,0 +1,20 @@
+footer {
+	height: 330px;
+	background-color: $black;
+	color: $grey-dark;
+	font-size: 0.8em;
+	padding: $space_mod 0;
+
+	h3 {
+		color: $grey-dark;
+	}
+
+	div {
+		margin-bottom: $space_mod * 2;
+	}
+
+	.fa {
+		font-size: 2em;
+		margin-right: $space_mod;
+	}
+}

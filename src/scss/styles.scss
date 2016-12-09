@@ -8,10 +8,26 @@
 @import 'grid';
 
 /* ELEMENTS */
+/* Semantic containers and other general elements*/
+@import 'elements';
+/* Typography */
+@import 'typography';
+/* Buttons */
 @import 'buttons';
 
 /* COMPONENTS */
-@import 'components/logo';
+/* Nav */
+@import 'components/nav';
+/* Header */
+@import 'components/header';
+/* Footer */
+@import 'components/footer';
+/* Sections */
+@import 'components/sections';
+/* Video articles */
+@import 'components/video';
+/* Cards */
+@import 'components/cards';
 
 
 

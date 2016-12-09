@@ -1,8 +1,11 @@
 mixin header(title, img)
-	header
-		h1 #{title}
-		img(src="#{img}", alt="#{title}")
+	header.header(style="background-image: url('#{img}')")
+		.container
+			.row
+				h1.col-12 #{title}
 
 mixin header-home(title)
-	header.header-home
-		h1 #{title}
+	header.header.header-home
+		.container
+			.row
+				h1.col-12 #{title}

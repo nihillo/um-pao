@@ -1,38 +1,40 @@
 mixin section-fl(title, text, bigImgSrc, bigImgAlt, smallImgSrc, smallImgAlt)
-	section.fl
-		h2 #{title}
-		p #{text}
-		img.img-fls-big(src="#{bigImgSrc}", alt="#{bigImgAlt}")
-		img.img-fls-small(src="#{smallImgSrc}", alt="#{smallImgAlt}")
+	section.section-fl
+		h2.col-12.push-6-xl #{title}
+		p.col-12.col-5-xl.push-7-xl #{text}
+		img.img-fl-big.col-7-m(src="#{bigImgSrc}", alt="#{bigImgAlt}")
+		img.img-fl-small.col-5-m.col-4-l.push-1-l(src="#{smallImgSrc}", alt="#{smallImgAlt}")
 
 mixin section-sl(title)
 	//- title: section title
-	section
-		h2 #{title}
-		if block 
-			block
+	section.section-sl
+		h2.col-12.col-6-l #{title}
+		div.col-12.col-6-l
+			if block 
+				block
 
 
 mixin section-cta(text, btnText, btnHref)
-	section
-		p.text-cta #{text}
-		a.btn.btn-cta(href="#{btnHref}") #{btnText}
+	section.section-cta
+		p.text-cta.col-12.col-10-l.cta-text #{text}
+		.col.12.btn-wrapper
+			a.btn.btn-cta.col-12(href="#{btnHref}") #{btnText}
 
 
 mixin section-cards(title)
-	section
-		h2 #{title}
+	section.section-cards
+		h2.col-12 #{title}
 		if block
 			block
 
 mixin section-onlytext(title, text)
-	section
+	section.section-onlytext
 		h2 #{title}
 	each paragraph in text
 		p #{paragraph}
 
 mixin section-rep(title, bigImgSrc, bigImgAlt, smallImgSrc, smallImgAlt, repertorio)
-	section
+	section.section-rep
 		h2 #{title}
 		ul
 		each obra in repertorio

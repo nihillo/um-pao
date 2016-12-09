@@ -1,0 +1,60 @@
+.main-nav {
+	
+}
+
+.logo {
+	width: $space_mod * 4;
+	height: $space_mod * 4;
+
+	position: fixed;
+	top: $space_mod;
+	left: $space_mod;
+	z-index: 110;
+
+	img {
+		filter: none;
+		width: 100%;
+		height: auto;
+	}
+}
+
+.main-menu {
+	position: fixed;
+	display: none;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 2em;
+	background-color: $color-main;
+	height: 100vh;
+	width: 100vw;
+	padding-top: 20vh;
+	z-index: 100;
+
+	a {
+		color: $white;
+
+		&:hover {
+			color: $color-main-lighter;
+		}
+	}
+
+	@include breakpoint(l) {
+		font-size: 1.4em;
+	}
+}
+
+.toggle-menu {
+	cursor: pointer;
+	position: fixed;
+	top: $space_mod;
+	right: 0;
+	z-index: 110;
+ 	
+ 	border: 0;
+ 	background-color: $color-main;
+ 	color: $white;
+	
+	width: $space_mod * 4;
+	height: $space_mod * 4;
+}

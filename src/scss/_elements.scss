@@ -1,0 +1,17 @@
+section {
+	@extend .row;
+	padding-top: $space_mod * 3;
+	// padding: $space_mod * 3;
+}
+
+article {
+	// margin: $space_mod * 2;
+}
+
+
+// Images
+figure { margin: 1em 40px; }
+img {
+	max-width: 100%;
+	filter: saturate(0.6) brightness(1.3) opacity(0.9);
+}

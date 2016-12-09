@@ -1,13 +1,29 @@
 mixin video-art-right(title, subtitle, src)
-	article
-		h3 #{title}
-		p.subtitle #{subtitle}
-		video(controls)
+	article.video-art.video-art-right
+		div.col-12.col-4-l
+			h3 #{title}
+			p.subtitle #{subtitle}
+		video.col-8-l(controls)
 			source(src="#{src}", type="video/mp4")
 
 mixin video-art-left(title, subtitle, src)
-	article
-		video(controls)
+	article.video-art.video-art-left
+		div.col-12.col-4-l
+			h3 #{title}
+			p.subtitle.col-12 #{subtitle}
+		video.col-8-l(controls)
 			source(src="#{src}", type="video/mp4")
-		h3 #{title}
-		p.subtitle #{subtitle}
+
+mixin video-yt-right(title, subtitle, src)
+	article.video-yt.video-yt-right
+		div.col-12.col-4-l
+			h3 #{title}
+			p.subtitle #{subtitle}
+		iframe.col-8-l.push-4-l(width="560", height="315", src="#{src}", frameborder="0", allowfullscreen)
+
+mixin video-yt-left(title, subtitle, src)
+	article.video-yt.video-yt-left
+		div.col-12.col-4-l.push-8-l
+			h3 #{title}
+			p.subtitle #{subtitle}
+		iframe.col-8-l.pull-4-l(width="560", height="315", src="#{src}", frameborder="0", allowfullscreen)
